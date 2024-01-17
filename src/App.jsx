@@ -7,6 +7,9 @@ import Contact from './components/Contact'
 import Services from './components/Services'
 import Social from './components/Social'
 import Testimonial from './components/Testimonial'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Dummy from './components/Dummy'
 
 
 
@@ -15,11 +18,10 @@ function App() {
 
   return (
     <>
-      {/* <Contact />
-      <Footer /> */}
-      {/* <Services /> */}
       {/* <Social /> */}
-      <Testimonial />
+      <Dummy />
+      <Contact />
+      <Footer />
     </>
   )
 }

@@ -4,9 +4,10 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Social = () => {
     return (
-        <div className='bg-yellow-400'>
-            <div className='flex items-center flex-col'>
-                <h1 className='text-9xl text-yellow-500'>SOCIAL</h1>
+        <div>
+            <div className='bg-yellow-400 h-64 rotate-[18deg] -mx-32 mt-40'></div>
+            <div className='relative -top-52 flex items-center flex-col'>
+                <h1 className='text-9xl text-slate-600 opacity-15'>SOCIAL</h1>
             </div>
 
             <h1 className='flex font-bold text-white'>Follow Us  <FaFacebook size={22} /></h1>
